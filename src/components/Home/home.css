@@ -1,0 +1,27 @@
+.product-gride{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    background-color: #ebeff0;
+
+
+    margin-top: 20px;
+}
+
+.product{
+    background-color: #ebeff0;
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    border: 1pz solid #ddd;
+}
+.product p{
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #0077c2;
+}
